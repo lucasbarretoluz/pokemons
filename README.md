@@ -1,5 +1,6 @@
 # pokemon
 
+Rodar o projeto no android, usar versão do sdk 2.18.6 (Flutter) preferencialmente.
 A new Flutter project.
 
 ## Getting Started

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pokemon/constants/constante_imagens.dart';
+import 'package:pokemon/constants/theme.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -20,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0XFF3558CD),
+      backgroundColor: ThemeColors.primaryColor,
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
